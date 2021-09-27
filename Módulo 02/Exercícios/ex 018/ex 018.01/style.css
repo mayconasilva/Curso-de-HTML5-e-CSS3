@@ -1,0 +1,18 @@
+@font-face {
+    font-family:'Rock';
+    src: url('./assets/fonts/rock.otf') format('opentype');
+    /** opentype (otf)
+    truetype (ttf)
+    embedded-type
+    truetype-att
+    svf **/
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-family: 'Rock';
+    font-size: 3em;
+}
