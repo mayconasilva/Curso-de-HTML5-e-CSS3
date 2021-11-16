@@ -13,7 +13,7 @@
     --cor5: #063d13;
     --font0: Arial, Helvetica, sans-serif;
     --font1: 'Bebas Neue', cursive;
-    --font2: 'idroid', sans-serif;
+    --font2: 'android', sans-serif;
 }
 body{
     font-family: var(--font1);
