@@ -10,18 +10,27 @@
             height: 100vh;
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
+            background-attachment: fixed;
             background-position: left top;
             background-size: cover;
         }
         main{
-            background-color: white;
-            width: 400px;
+            min-width: 400px;
+            max-width: 800px;
             padding: 10px;
             margin: auto;
             border: 1px solid blue;
             border-radius: 10px;
             text-align: justify;
+            background: yellow url(imagens/wallpaper005.jpg) center center no-repeat  fixed;
+            background-size: cover;
         }
+        p{
+            text-align: justify;
+            text-indent: 2em;
+           
+        }
+        /* Background shorthand = color, image, position, repeat, size[não está funcionando com shorthand, mas está no manual da W3C], atachment*/
     </style>
 </head>
 <body>
@@ -33,6 +42,7 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ea, laudantium minus sit quaerat omnis, cupiditate cumque nostrum veritatis vero doloremque at, eos mollitia provident enim! Vel, veritatis quasi? Dolores.
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nostrum eum perspiciatis molestiae sapiente quidem laborum magnam. A quisquam saepe error, dolorem vitae rem! Mollitia impedit accusantium ut labore distinctio.
         </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum repellendus repellat, debitis perspiciatis vel recusandae! Soluta ipsum dicta vero sunt ducimus, illum ad quaerat saepe, ipsa ab accusamus iusto eum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore magnam sapiente quaerat, sed dolore excepturi. Ipsa earum officiis velit eligendi ad dicta suscipit quibusdam, cum debitis optio rem, temporibus vero. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur, quisquam praesentium. Aspernatur sint placeat iusto a ad quaerat nostrum in! Autem consequatur non illum omnis quod fugiat odio ipsa eveniet. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum quae nemo fugit inventore quasi magnam laborum incidunt doloribus sapiente soluta, repudiandae deserunt ratione quod ullam! Cum illum est saepe facilis?</p>
     </main>
     
 </body>
