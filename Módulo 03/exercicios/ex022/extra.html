@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento Vertical</title>
+    <style>
+        #container {
+            position: relative;
+            height: 100vh;
+            width: 700px;
+            background-color: aqua;
+            padding: 10px;
+            background-image: url(imagens/wallpaper002.jpg);
+            background-size: cover;
+        }
+
+        #content {
+            position: absolute;
+            height: 250px;
+            width: 350px;
+            background-color: rgb(0, 26, 255);
+            left: 50%;
+            top: 50%;
+            transform: translate(-20px, -20px);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Alinhamento Vertical</h1>
+    <div id="container">
+        <div id="content"></div>
+    </div>
+
+</body>
+
+</html>
