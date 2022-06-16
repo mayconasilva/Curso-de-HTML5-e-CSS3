@@ -7,7 +7,7 @@ Conteúdos:
 3 - Domínio e Hospedagem
 4 - Diferenças de Linguagens
 5 - Organização de Ambiente
-6 - Estrutura Básica de HTML  e comandos
+6 - Estrutura Básica de HTML e comandos
 7 - Semântica em HTML
 8 - Emojis
 9 - Multimídia
