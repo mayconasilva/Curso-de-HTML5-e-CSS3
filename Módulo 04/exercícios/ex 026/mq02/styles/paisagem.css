@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+/* Orientação: Aparelho Deitado */
+
+body{
+    background-image: url(../images/cev-landscape.jpg);
+    background-position: left bottom;
+}
+
+header::before{
+    content: "O seguinte dispositivo encontrasse na orientação: Landscape ou deitado";
+}

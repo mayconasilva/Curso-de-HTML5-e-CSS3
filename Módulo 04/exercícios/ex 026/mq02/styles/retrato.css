@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/* Orientação: Aparelho em Pé */
+
+body{
+    background-image: url(../images/cev-portrait.jpg);
+    background-position: center bottom;
+
+}
+
+header::before{
+    content: "O seguinte dispositivo encontrasse na orientação: Portrait ou em Pé";
+}
