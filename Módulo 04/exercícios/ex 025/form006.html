@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 025</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.2em;
+
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 1.8em;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Teste de formulário</h1>
+
+    <form action="cadrasto.php" method="post" autocomplete="on">
+        <p>
+            <label for="icolor">Cor:</label>
+            <input type="color" name="color" id="icolor">
+        </p>
+        <p>
+            <label for="inivel">Nível de Sastifação:</label>
+            <input type="range" name="nivel" id="inivel" min="1" max="5">
+        </p>
+        <p>
+            <label for="ifoto">Foto de Perfil</label>
+            <input type="file" name="foto" id="ifoto">
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+
+
+
+</body>
+
+</html>

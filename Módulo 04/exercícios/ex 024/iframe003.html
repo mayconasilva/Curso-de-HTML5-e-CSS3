@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de Iframes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe{
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Faça uma escolha</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem totam sapiente, laboriosam voluptas optio nam! Deserunt necessitatibus, nulla nesciunt odit tempore beatae quae iure ex a iste sed? Quas, porro.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore aliquam officiis dolorem cupiditate? Provident quibusdam aliquam iste odit sed assumenda, dicta fugit blanditiis, officia voluptate id. Ipsa eveniet incidunt repellat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam consectetur temporibus ipsa? Eos autem nisi quia assumenda alias, quas voluptatem aliquid hic, voluptatibus vitae enim animi aspernatur nulla. Beatae, consectetur!</p>
+
+    <ul>
+        <li><a href="local_content/pag001.html" target="frame">Primeira Página</a></li>
+        <li><a href="local_content/pag002.html" target="frame">Segunda Página</a></li>
+        <li><a href="local_content/pag003.html" target="frame">Terceira Página</a></li>
+
+    </ul>
+
+    <iframe srcdoc="<h1> Escolha umas das opções acima </h1> <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ad perspiciatis, ducimus non a commodi totam nemo error necessitatibus animi, corporis natus aspernatur sequi fuga et doloremque consectetur, accusantium harum? </p> <img src='https://github.com/gustavoguanabara/html-css/blob/master/imagens/mascote.png?raw=true' ></iframe>" name="frame" frameborder="0"><p>Seu navegador não é compartível</p></iframe>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ad perspiciatis, ducimus non a commodi totam nemo error necessitatibus animi, corporis natus aspernatur sequi fuga et doloremque consectetur, accusantium harum?</p> 
+    
+</body>
+</html>

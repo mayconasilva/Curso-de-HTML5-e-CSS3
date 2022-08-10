@@ -1,0 +1,99 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'android' sans-serif;
+    src: url(./assets/fontes/idroid.otf);
+}
+:root{
+    --cor0: #c5ebd6;
+    --cor1: #83E1AD;
+    --cor2: #3DDC84;
+    --cor3: #2FA866;
+    --cor4: #1A5C37;
+    --cor5: #063d13;
+    --font0: Arial, Helvetica, sans-serif;
+    --font1: 'Bebas Neue', cursive;
+    --font2: 'android', sans-serif;
+}
+body{
+    font-family: var(--font1);
+    background-color: var(--cor1);
+    margin: 0;
+}
+header{
+    background-color: #3DDC84;
+    margin: 0;
+    padding: 3px;
+}
+main{
+    min-width: 400px;
+    max-width: 800px;
+    margin: auto;
+
+}
+h1#principal{
+    margin-top: 0;
+    padding: 5px;
+    font-family: 'android', sans-serif;
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 1px 1px 3px black;
+}
+h2#slogan{
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    font-size: 2em;
+}
+article{
+    margin: 0 30px;
+}
+nav{
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+}
+nav > a{
+    background-color: #27e67c;
+    text-decoration: none;
+    color: black;
+    border: solid black 1px;
+    border-radius: 3px;
+}
+nav > a:hover{
+    background-color: #1db662;
+}
+nav  a:active{
+    background-color: #3DDC84;
+    border: none
+}
+div.video {
+    background-color: var(--cor5);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+aside{
+    background-color: rgb(58, 238, 238);
+}
+aside > h2{
+text-align: center;
+background-color: rgba(0, 238, 255, 0.795);
+}
+footer{
+    text-align: center;
+    font-style: italic;
+    background-color: #24834f;
+    padding: 5px;
+}
+p{
+    text-indent: 30px;
+}

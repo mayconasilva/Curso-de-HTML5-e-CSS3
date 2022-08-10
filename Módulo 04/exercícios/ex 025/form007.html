@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 025</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.2em;
+
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 1.8em;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Teste de formulário</h1>
+
+    <form action="cadrasto.php" method="post" autocomplete="on">
+
+        <p>
+            <label for="iestado">Estado</label>
+            <select name="estado" id="iestado">
+                <option value="escolha" selected>---Escolha---</option>
+                <optgroup label="Região Norderte">
+                    <option value="BA">Bahia</option>
+                    <option value="MA">Maranhão</option>
+                </optgroup>
+                <optgroup label="Região Sudeste">
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="tel" name="prof" id="iprof" list="istprof">
+            <datalist id="istprof">
+                <option>Administrador</option>
+                <option>Professor</option>
+                <option>Programador</option>
+
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imsg">Mensagem:</label> <br>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+
+    </form>
+
+
+
+</body>
+
+</html>

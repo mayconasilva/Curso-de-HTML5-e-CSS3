@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 025</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.2em;
+
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 1.8em;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Teste de formulário</h1>
+
+    <form action="cadrasto.php" method="get" autocomplete="on">
+
+        <fieldset>
+            <legend>Sexo</legend>
+            <p>
+                <input type="radio" name="sex" id="sxmasc" checked value="M"> <label for="sxmasc">Masculino</label> <br>
+                <input type="radio" name="sex" id="sxfem" value="F"> <label for="sxfem">Feminino</label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+
+            <p>
+                <input type="checkbox" name="nesbast" id="iesbast" checked> <label for="iesbast">Basquete</label> <br>
+                <input type="checkbox" name="nesfut" id="iesfut" checked> <label for="iesfut">Futebol</label> <br>
+                <input type="checkbox" name="nesnat" id="iesnat"> <label for="iesnat">Natação</label> <br>
+                <input type="checkbox" name="nesten" id="iesten"><label for="iesten"> Tênis</label>
+            </p>
+
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+
+
+</body>
+
+</html>
